@@ -3,7 +3,7 @@ import numpy as np
 import dose_dist_eval as dde
 import matplotlib.pyplot as plt
 from streamlit_option_menu import option_menu
-from dose_profiler2 import MainDoseProfiler
+from dose_profiler import MainDoseProfiler
 
 
 if 'dp' not in st.session_state:
